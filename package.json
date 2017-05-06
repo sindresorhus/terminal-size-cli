@@ -1,7 +1,7 @@
 {
   "name": "term-size-cli",
   "version": "1.0.0",
-  "description": "Reliably get the terminal window size",
+  "description": "Reliably get the terminal window size (columns & rows)",
   "license": "MIT",
   "repository": "sindresorhus/term-size-cli",
   "author": {
@@ -34,18 +34,16 @@
     "columns",
     "rows",
     "lines",
-    "tty"
+    "tty",
+    "redirected"
   ],
   "dependencies": {
     "meow": "^3.7.0",
-    "term-size": "^0.1.0"
+    "term-size": "^1.0.0"
   },
   "devDependencies": {
     "ava": "*",
-    "execa": "^0.4.0",
+    "execa": "^0.6.3",
     "xo": "*"
-  },
-  "xo": {
-    "esnext": true
   }
 }
