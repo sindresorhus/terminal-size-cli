@@ -1,4 +1,4 @@
-# term-size-cli [![Build Status](https://travis-ci.org/sindresorhus/term-size-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/term-size-cli)
+# term-size-cli
 
 > Reliably get the terminal window size - cross-platform
 
