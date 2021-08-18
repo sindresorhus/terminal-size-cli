@@ -1,8 +1,9 @@
 import test from 'ava';
 import execa from 'execa';
 
-test(async t => {
-	const [columns, rows] = (await execa.stdout('./cli.js')).split('\n');
-	t.true(parseInt(columns, 10) > 0);
-	t.true(parseInt(rows, 10) > 0);
+test('main', async t => {
+	const {stdout} = await execa('./cli.js');
+	const [columns, rows] = stdout.split('\n');
+	t.true(Number.parseInt(columns, 10) > 0);
+	t.true(Number.parseInt(rows, 10) > 0);
 });

@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const termSize = require('term-size');
+import meow from 'meow';
+import terminalSize from 'term-size';
 
 meow(`
 	Example
@@ -11,8 +10,10 @@ meow(`
 
 	First line is the number of columns
 	Second line is the number of rows
-`);
+`, {
+	importMeta: import.meta,
+});
 
-const size = termSize();
+const {columns, rows} = terminalSize();
 
-console.log(`${size.columns}\n${size.rows}`);
+console.log(`${columns}\n${rows}`);
