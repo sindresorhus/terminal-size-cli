@@ -4,8 +4,8 @@
 
 ## Install
 
-```
-$ npm install --global term-size-cli
+```sh
+npm install --global term-size-cli
 ```
 
 ## Usage
@@ -24,4 +24,4 @@ $ term-size --help
 
 ## Related
 
-- [term-size](https://github.com/sindresorhus/term-size) - API for this module
+- [terminal-size](https://github.com/sindresorhus/terminal-size) - API for this module

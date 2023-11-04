@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import meow from 'meow';
-import terminalSize from 'term-size';
+import terminalSize from 'terminal-size';
 
 meow(`
 	Example
