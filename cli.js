@@ -4,7 +4,7 @@ import terminalSize from 'terminal-size';
 
 meow(`
 	Example
-	  $ term-size
+	  $ terminal-size
 	  143
 	  24
 

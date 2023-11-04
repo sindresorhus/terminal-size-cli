@@ -1,9 +1,9 @@
 {
-	"name": "term-size-cli",
+	"name": "terminal-size-cli",
 	"version": "2.0.0",
 	"description": "Reliably get the terminal window size (columns & rows)",
 	"license": "MIT",
-	"repository": "sindresorhus/term-size-cli",
+	"repository": "sindresorhus/terminal-size-cli",
 	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
@@ -12,7 +12,7 @@
 	},
 	"type": "module",
 	"bin": {
-		"term-size": "./cli.js"
+		"terminal-size": "./cli.js"
 	},
 	"engines": {
 		"node": ">=18"

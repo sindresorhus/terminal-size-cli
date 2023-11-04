@@ -1,20 +1,20 @@
-# term-size-cli
+# terminal-size-cli
 
 > Reliably get the terminal window size - cross-platform
 
 ## Install
 
 ```sh
-npm install --global term-size-cli
+npm install --global terminal-size-cli
 ```
 
 ## Usage
 
 ```
-$ term-size --help
+$ terminal-size --help
 
   Example
-    $ term-size
+    $ terminal-size
     143
     24
 
